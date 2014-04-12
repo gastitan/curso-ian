@@ -1,4 +1,4 @@
-package com.curso.ejemplos;
+package com.curso.main;
 
 import com.curso.objetos.Empresa;
 import com.curso.objetos.EmpresaFiat;
@@ -12,10 +12,14 @@ public class PrenderFuegoTodo {
 		crearEmpresa(e1, "Fiat", "Pedernera 222", 1000);
 		
 //		e1.hacerPalio();
-//		e1.venderPalio();
-//		e1.venderPalio();
-//		e1.venderPalio();
-		
+//		e1.hacerPalio();
+//		e1.hacerPalio();
+//		e1.hacerPalio();
+//		e1.hacerPalio();
+//		e1.hacerPalio();
+//		e1.hacerPalio();
+//		e1.hacerPalio();
+//		
 //		e1.prenderFuegoLaEmpresa();
 		
 		System.out.println(e1.patrimonio);

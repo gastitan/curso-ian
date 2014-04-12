@@ -18,19 +18,19 @@ public class AutosLocos
 		mostrarFiat(empFiat1);
 		System.out.println("#######################");
 		
-		empFiat1.hacerPalio();
+//		empFiat1.hacerPalio();
 		mostrarFiat(empFiat1);
 		System.out.println("#######################");
 		
-		empFiat1.hacerPalio();
+//		empFiat1.hacerPalio();
 		mostrarFiat(empFiat1);
 		System.out.println("#######################");
 		
-		empFiat1.venderPalio();
+//		empFiat1.venderPalio();
 		mostrarFiat(empFiat1);
 		System.out.println("#######################");
 		
-		empFiat1.venderPalio();
+//		empFiat1.venderPalio();
 		mostrarFiat(empFiat1);
 		
 	}
@@ -48,7 +48,7 @@ public class AutosLocos
 //		System.out.println(e.nombre);
 //		System.out.println(e.direccion);
 		System.out.println("Plata: " + e.patrimonio);
-		System.out.println("Cantidad Palios: " + e.getCantPalios());
+//		System.out.println("Cantidad Palios: " + e.getCantPalios());
 	}
 	
 }

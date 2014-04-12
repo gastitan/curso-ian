@@ -56,6 +56,9 @@ public class EmpresaFord extends Empresa{
 	
 		return cantFocus; 
     }
+	
+	
+	
 	public void hacerAuto(String auto){
 		if (auto.equals("Fiesta")){
 			hacerFiesta();
@@ -69,6 +72,20 @@ public class EmpresaFord extends Empresa{
 			System.out.println("no se hizo el auto: " + auto);
 		 
 	}
+
+	public void venderAuto(String auto){
+		if (auto.equals("Fiesta")){
+			venderFiesta();
+			System.out.println("se vendio fiesta");
+		}
+		else if (auto.equals("Focus")){
+			venderFocus();
+			System.out.println("se vendio focus");
+		
+		} else
+			System.out.println("no se vendio el auto: " + auto);
+		 
+	}
 	public void ventaTotalFocus()
 	{
 		while(cantFocus>0)
@@ -78,5 +95,19 @@ public class EmpresaFord extends Empresa{
 		}
 	
 	}
+	
+	/**
+	 * Mientras haya plata, que produzca autos
+	 * @return
+	 */
+	public void produccionTotalFocus() 
+	{
+		while(patrimonio >= VALOR_FOCUS)
+		{
+			hacerFocus();
+		}
+		
+	}
+	
 	
 }
