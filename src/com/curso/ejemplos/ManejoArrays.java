@@ -5,6 +5,10 @@ public class ManejoArrays
 	public static void main(String[] args) 
 	{
 		funcion3();
+		
+		
+		
+		
 	}
 	
 	public static void funcion1()
