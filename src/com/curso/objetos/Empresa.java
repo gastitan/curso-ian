@@ -14,5 +14,13 @@ public class Empresa {
 	{
 		patrimonio = patrimonio - costo;
 	}
-	
+	public Empresa (double patrimonio){
+		this.patrimonio = patrimonio;
+	}
+	public Empresa (String nombre, double patrimonio){
+		this.patrimonio = patrimonio;
+		this.nombre = nombre;
+	}
+	public Empresa()
+	{}
 }
