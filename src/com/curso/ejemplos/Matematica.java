@@ -4,7 +4,7 @@ public class Matematica {
 
 	public static void main(String[] args) {
 
-		double a = 5;
+		double a = 35;
 		double b = 7;
 		double c = a +b;
 		
