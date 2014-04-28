@@ -14,6 +14,8 @@ public class Automotriz
 //		double costoVenta = auto1.damePrecioVenta();
 //		
 //		System.out.println("Costo Venta: " + costoVenta);
+
+//		Ian puto
 		
 		EmpresaFiat ef = new EmpresaFiat();
 		EmpresaFiat e2 = new EmpresaFiat();

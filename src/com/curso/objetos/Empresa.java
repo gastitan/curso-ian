@@ -23,4 +23,8 @@ public class Empresa {
 	}
 	public Empresa()
 	{}
+	
+	public void ianPuto()
+	{
+	}
 }
