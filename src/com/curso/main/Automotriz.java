@@ -17,7 +17,10 @@ public class Automotriz
 
 //		Ian puto
 		
-		EmpresaFiat ef = new EmpresaFiat();
+		EmpresaFiat ef;
+		ef = new EmpresaFiat();
+		
+		
 		EmpresaFiat e2 = new EmpresaFiat();
 		
 		Automovil a1 = new Automovil("focus", 500);
@@ -42,10 +45,10 @@ public class Automotriz
 		System.out.println(cant_e2);
 		System.out.println(cant_ef);
 		
-		int cantFititos = ef.cantidadPorNombre("fitito");
-		System.out.println(cantFititos); //--> TIENE QUE DEVOLVER 2
+		//int cantFititos = ef.cantidadPorNombre("fitito");
+		//System.out.println(cantFititos); //--> TIENE QUE DEVOLVER 2
 		
-		int cantVentos= ef.cantidadPorNombre("VEntO");
-		System.out.println(cantVentos); //--> TIENE QUE DEVOLVER 3
+		//int cantVentos= ef.cantidadPorNombre("VEntO");
+		//System.out.println(cantVentos); //--> TIENE QUE DEVOLVER 3
 	}
 }
